@@ -1,0 +1,78 @@
+body {
+    background-image: url(./image/32511.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 350px;
+}
+
+.container {
+    height: 600px;
+    width: 100%;
+    background:linear-gradient(lightblue,blue);
+    border-radius: 20px;
+}
+
+.signup {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.signup h1 {
+    border-bottom: 4px solid red;
+}
+
+div {
+    display: block;
+}
+
+.forms {
+    width: auto;
+    height: auto;
+    text-align: center;
+    padding-top: 30px;
+
+}
+
+input {
+    width: 80%;
+    height: 40px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    padding-left: 10px;
+    font-size: 15px;
+    outline: none;
+
+}
+
+input:focus {
+    border: 2px solid red;
+
+
+}
+
+.checkbox1 {
+    margin-top: 30px;
+}
+
+input[type=checkbox] {
+    height: 20px;
+    width: 30px;
+    margin-left: 60px;
+
+
+}
+
+input[type=submit] {
+    width: 83%;
+    height: 50px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    background: linear-gradient(lightblue, blue);
+    text-transform: uppercase;
+}
+input[type=submit]:hover {
+    background: linear-gradient( blue,lightblue);
+}
